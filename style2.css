@@ -1,0 +1,78 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+      background-color: rgb(222, 216, 194);
+   padding: 0px 10px;
+position: sticky;
+top: 0;
+left: 0;
+}
+a{
+     text-decoration: none;
+     padding: 20px;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(117, 69, 31);
+}
+.links{
+    display: flex;
+  
+}
+.header1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(97, 3, 3);
+}
+.section2 img{
+    width: 350px;
+}
+.section2{
+    justify-content: center;
+    display: flex;
+}
+.rights,.lefts{
+    display: flex;
+    flex-direction: column;
+}
+.p1{
+    width: 600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header2{
+    text-align: center;
+    font-size: 45px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+   
+}
+.red{
+    color: rgb(133, 32, 32);
+
+}
+.music{
+    margin-left: auto;
+    margin-right: auto;
+}
+.vc{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.p5{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+}
