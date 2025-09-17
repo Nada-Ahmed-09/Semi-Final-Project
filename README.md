@@ -1,4 +1,5 @@
-# Semi-Final-Project
+# Team 2 
+Semi_Final_Project
 A Website about Animals
 3 Sections 
 first section talks mainly about animals and contains
