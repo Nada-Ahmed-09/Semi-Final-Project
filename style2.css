@@ -76,3 +76,18 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0px;
 }
+@media (max-width: 568px){
+    .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    body{
+        width: fit-content;
+    }
+    .p1{
+        width: 250px;
+       font-size: 15px;
+    }
+}

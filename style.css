@@ -195,36 +195,51 @@ td{
 }
 .right1{
     display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media (max-width: 568px){
     main{
         flex-direction: column;
     }
     .article1{
-        display: b;
+        flex-direction: column;
     }
-    .right1{
-   display: block;
-}
-.p1{
-    width: 10px;
-    height: 10px;
-    font-size: 15px;
-}
+
+
 body{
     width: fit-content;
-   background-color: rgb(25, 132, 132);
+   
 }
 .section2{
-    /* display: flex;
-     margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    margin-top: 100px;
-    width: fit-content;
-    background-color: rgb(174, 162, 134);
-    padding: 10px;
-    border-radius: 30px; */
+
     flex-direction: column;
+}
+.links a{
+    font-size: 20px;
+    display: inline;
+}
+.header1{
+    font-size: 20px
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+     padding: 0px;
+}
+.article2{
+    flex-direction: column;
+    padding: 0px;
+    width: fit-content;
+}
+.video1{
+  padding: 0px;
+}
+.table1 , tr, tbody{
+    padding: 0px;
+}
+figure{
+    margin: 0px;
 }
 }
