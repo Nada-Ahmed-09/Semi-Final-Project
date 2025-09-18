@@ -4,10 +4,12 @@
     align-items: center;
     text-decoration: none;
     list-style: none;
-      background-color: rgb(222, 216, 194);
+    background-color: rgb(222, 216, 194);
    padding: 0px 10px;
 position: sticky;
+width: auto;
 top: 0;
+z-index: 1000;
 left: 0;
 }
 a{
@@ -83,12 +85,23 @@ body{
         justify-content: center;
     
     }
+    .links a{
+    font-size: 20px;
+    padding: 0px 5px;
+    display: inline;
+}
     body{
         width: fit-content;
     }
     .p1{
         width: 250px;
        font-size: 15px;
+    }
+    .lefts,.rights{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
     }
 }
 .image1:hover,.image2:hover,.image3:hover,.image4:hover{

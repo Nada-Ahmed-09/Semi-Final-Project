@@ -104,6 +104,11 @@ body{
 .navbar{
     padding: 0px 10px;
 }
+    .links a{
+    font-size: 20px;
+    padding: 0px 5px;
+    display: inline;
+}
 }
 .image1:hover,.image2:hover,.image3:hover,.image4:hover{
    transform: scale(1.1);
