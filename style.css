@@ -10,7 +10,9 @@
     background-color: rgb(222, 216, 194);
    padding: 0px 10px;
 position: sticky;
+width: auto;
 top: 0;
+z-index: 1000;
 left: 0;
 }
 a{
@@ -59,7 +61,7 @@ body{
     margin-top: 100px;
     width: fit-content;
     background-color: rgb(174, 162, 134);
-    padding: 10px;
+    padding: 10px 25px;
     border-radius: 30px;
 }
 .video1{
@@ -80,7 +82,8 @@ body{
 .a1{
       font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    padding: 0px;
+    padding: 10px;
+    margin-top: 20px;
     color: rgb(92, 64, 37);
     font-weight: 600;
      margin-left: auto;
@@ -106,7 +109,7 @@ td{
     font-family: Arial, Helvetica, sans-serif;
    
    text-align: center;
-    padding: 50px;
+    padding: 0px;
     color: rgb(92, 64, 37);
     font-weight: 600;
      margin-left: auto;
@@ -145,6 +148,7 @@ td{
     align-items: center;
     align-content: center;
     height: 300px;
+     border-radius: 20px;
    padding: 10px;
 }
 .YourName,.email,.fav-animal{
@@ -189,6 +193,10 @@ td{
     margin-top: 5px;
        margin: 5px;
 }
+figure{
+    margin-right: 0px;
+    margin-left: auto;
+}
 .buttons{
   margin: auto;
     display: flex;
@@ -210,7 +218,7 @@ td{
 
 body{
     width: fit-content;
-   
+   margin: 0px;
 }
 .section2{
 
@@ -218,6 +226,7 @@ body{
 }
 .links a{
     font-size: 20px;
+    padding: 0px 5px;
     display: inline;
 }
 .header1{
@@ -235,6 +244,9 @@ body{
 }
 .video1{
   padding: 0px;
+  margin-left: auto;
+  display: flex;
+  margin-right: auto;
 }
 .table1 , tr, tbody{
     padding: 0px;
@@ -242,15 +254,99 @@ body{
 figure{
     margin: 0px;
 }
+.opinion{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+    background-color: rgb(113, 104, 83);
+    border-radius: 40px;
+   height: fit-content;
+   margin-left: auto;
+   width: fit-content;
+   margin-right: auto;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+   
+}
+.btn1{
+    background-color: rgb(39, 33, 26);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+      margin-top: 5px;
+      margin: 5px;
+       font-size: 25px;
+}
+.btns{
+      padding: 10px 10px;
+    border: 0px;
+    border-radius: 10px;
+     margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 5px;
+       margin: 5px;
+       font-size: 25px;
+}
+.figcaption1{
+    text-align: center;
+}
+.p4{
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+}
+.forum{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 360px;
+   padding: 54px 26px;
+}
+.YourName,.email,.fav-animal{
+    padding: 20px 20px;
+    width: fit-content;
+    border-radius: 13px;
+    border: 0px;
+    font-size: 30px;
+    margin: 4px;
+     margin-left: auto;
+    margin-right: auto;
+}
 }
 .image1:hover,.image2:hover,.image3:hover,.image4:hover{
    transform: scale(1.1);
    transition: 0.3s;
    border-radius: 10px;
    box-shadow: 0px 0px 50px rgb(31, 30, 30);
+   cursor: pointer;
 }
 a:hover{
     color: #FFF;
      transform: scale(1.1);
    transition: 0.3s;
+}
+.video1:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 0px 100px rgb(43, 41, 29);
+}
+.article2:hover , .forum:hover{
+    box-shadow: 0px 0px 40px rgb(100, 95, 71);
+    transition: 0.3s;
+   cursor: pointer;
+   transform: scale(1.03);
 }
